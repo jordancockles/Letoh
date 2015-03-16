@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="eccb8d16-5aec-4874-ac11-be90818d8f69" name="MisterJordan@MISTERJORDAN-HP 2015-02-23 16:48:07" runUser="MisterJordan-HP\MisterJordan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c230cfe4-546b-41a8-92e0-5de5def8041b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="MisterJordan_MISTERJORDAN-HP 2015-02-23 16_48_07">
+      <DeploymentItem filename="C:\Users\MisterJordan\Desktop\University\CET203 - Software Development\C# Projects\Assignment 2 - Letoh\Letoh v4.0\Letoh HMS\bin\Debug\Letoh HMS.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-23T16:48:07.3980016+00:00" queuing="2015-02-23T16:48:07.4420042+00:00" start="2015-02-23T16:48:07.4490046+00:00" finish="2015-02-23T16:48:13.4503478+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoadLetohDataTestUnsuccessful" storage="c:\users\misterjordan\desktop\university\cet203 - software development\c# projects\assignment 2 - letoh\letoh v4.0\letohhmstests\bin\debug\letohhmstests.dll" id="99d1a266-644f-ef8c-1a36-a290caa2c01a">
+      <Execution id="2a9ec0a9-ec43-44bd-bc78-d36efa2ab242" />
+      <TestMethod codeBase="C:/Users/MisterJordan/Desktop/University/CET203 - Software Development/C# Projects/Assignment 2 - Letoh/Letoh v4.0/LetohHMSTests/bin/Debug/LetohHMSTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LetohHMSTests.FormBasedUITest, LetohHMSTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadLetohDataTestUnsuccessful" />
+    </UnitTest>
+    <UnitTest name="LoadLetohDataSuccessful" storage="c:\users\misterjordan\desktop\university\cet203 - software development\c# projects\assignment 2 - letoh\letoh v4.0\letohhmstests\bin\debug\letohhmstests.dll" id="51af9e9f-5add-3bb1-5ee7-ba18e46ec9ff">
+      <Execution id="6bfa2d4a-836e-4d68-b328-81a03b2dc56a" />
+      <TestMethod codeBase="C:/Users/MisterJordan/Desktop/University/CET203 - Software Development/C# Projects/Assignment 2 - Letoh/Letoh v4.0/LetohHMSTests/bin/Debug/LetohHMSTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LetohHMSTests.FormBasedUITest, LetohHMSTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadLetohDataSuccessful" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="51af9e9f-5add-3bb1-5ee7-ba18e46ec9ff" executionId="6bfa2d4a-836e-4d68-b328-81a03b2dc56a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99d1a266-644f-ef8c-1a36-a290caa2c01a" executionId="2a9ec0a9-ec43-44bd-bc78-d36efa2ab242" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6bfa2d4a-836e-4d68-b328-81a03b2dc56a" testId="51af9e9f-5add-3bb1-5ee7-ba18e46ec9ff" testName="LoadLetohDataSuccessful" computerName="MISTERJORDAN-HP" duration="00:00:02.9074778" startTime="2015-02-23T16:48:07.4510047+00:00" endTime="2015-02-23T16:48:10.5661829+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bfa2d4a-836e-4d68-b328-81a03b2dc56a">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a9ec0a9-ec43-44bd-bc78-d36efa2ab242" testId="99d1a266-644f-ef8c-1a36-a290caa2c01a" testName="LoadLetohDataTestUnsuccessful" computerName="MISTERJORDAN-HP" duration="00:00:02.8566006" startTime="2015-02-23T16:48:10.5671829+00:00" endTime="2015-02-23T16:48:13.4283466+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a9ec0a9-ec43-44bd-bc78-d36efa2ab242">
+    </UnitTestResult>
+  </Results>
+</TestRun>

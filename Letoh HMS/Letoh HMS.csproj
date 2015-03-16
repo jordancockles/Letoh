@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B073CA75-CF2A-4E14-BDED-87778E1512BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Letoh_HMS</RootNamespace>
+    <AssemblyName>Letoh HMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormInterfaces\AddNewDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInterfaces\AddNewDataForm.Designer.cs">
+      <DependentUpon>AddNewDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomExceptions\AlreadyBookedException.cs" />
+    <Compile Include="AppData.cs" />
+    <Compile Include="BusinessProcesses\CancelReservation.cs" />
+    <Compile Include="FormInterfaces\FormBasedUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInterfaces\FormBasedUI.Designer.cs">
+      <DependentUpon>FormBasedUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainClasses\Guest.cs" />
+    <Compile Include="FormInterfaces\GuestFormUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInterfaces\GuestFormUI.Designer.cs">
+      <DependentUpon>GuestFormUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainClasses\GuestList.cs" />
+    <Compile Include="CustomExceptions\HasReservationException.cs" />
+    <Compile Include="Interfaces\IDisplay.cs" />
+    <Compile Include="Interfaces\IUserInterface.cs" />
+    <Compile Include="ReadWriteFiles\Letoh.cs" />
+    <Compile Include="BusinessProcesses\MakeReservation.cs" />
+    <Compile Include="FormInterfaces\MakeReservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInterfaces\MakeReservationForm.Designer.cs">
+      <DependentUpon>MakeReservationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MainClasses\Reservation.cs" />
+    <Compile Include="MainClasses\ReservationList.cs" />
+    <Compile Include="FormInterfaces\ReservationFormUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInterfaces\ReservationFormUI.Designer.cs">
+      <DependentUpon>ReservationFormUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainClasses\Room.cs" />
+    <Compile Include="FormInterfaces\RoomFormUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInterfaces\RoomFormUI.Designer.cs">
+      <DependentUpon>RoomFormUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainClasses\RoomList.cs" />
+    <Compile Include="ReadWriteFiles\SerializeFileHandler.cs" />
+    <Compile Include="FormInterfaces\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInterfaces\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadWriteFiles\TextReportGenerator.cs" />
+    <Compile Include="CustomExceptions\TooManyGuestsException.cs" />
+    <EmbeddedResource Include="FormInterfaces\AddNewDataForm.resx">
+      <DependentUpon>AddNewDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInterfaces\FormBasedUI.resx">
+      <DependentUpon>FormBasedUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInterfaces\GuestFormUI.resx">
+      <DependentUpon>GuestFormUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInterfaces\MakeReservationForm.resx">
+      <DependentUpon>MakeReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormInterfaces\ReservationFormUI.resx">
+      <DependentUpon>ReservationFormUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInterfaces\RoomFormUI.resx">
+      <DependentUpon>RoomFormUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInterfaces\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

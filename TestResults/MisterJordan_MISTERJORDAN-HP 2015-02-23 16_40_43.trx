@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6214c92f-bfa7-4a94-adb7-37e0735f234b" name="MisterJordan@MISTERJORDAN-HP 2015-02-23 16:40:43" runUser="MisterJordan-HP\MisterJordan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c230cfe4-546b-41a8-92e0-5de5def8041b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="MisterJordan_MISTERJORDAN-HP 2015-02-23 16_40_43">
+      <DeploymentItem filename="C:\Users\MisterJordan\Desktop\University\CET203 - Software Development\C# Projects\Assignment 2 - Letoh\Letoh v4.0\Letoh HMS\bin\Debug\Letoh HMS.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-23T16:40:43.1455919+00:00" queuing="2015-02-23T16:40:43.3656044+00:00" start="2015-02-23T16:40:43.3996064+00:00" finish="2015-02-23T16:40:46.5877887+00:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="MISTERJORDAN-HP" outcome="Warning" timestamp="2015-02-23T16:40:43.1905944+00:00">
+        <Text>Deployment is currently disabled. The deployment item 'Letoh HMS.exe' on test 'LetohHMSTests.FormBasedUITest.LoadLetohDataTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoadLetohDataTest" storage="c:\users\misterjordan\desktop\university\cet203 - software development\c# projects\assignment 2 - letoh\letoh v4.0\letohhmstests\bin\debug\letohhmstests.dll" id="2b898e01-908d-ed09-6073-408f58a59635">
+      <DeploymentItems>
+        <DeploymentItem filename="Letoh HMS.exe" />
+      </DeploymentItems>
+      <Execution id="05256762-b00e-4ef7-a1c5-49aa2886b24b" />
+      <TestMethod codeBase="C:/Users/MisterJordan/Desktop/University/CET203 - Software Development/C# Projects/Assignment 2 - Letoh/Letoh v4.0/LetohHMSTests/bin/Debug/LetohHMSTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LetohHMSTests.FormBasedUITest, LetohHMSTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadLetohDataTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2b898e01-908d-ed09-6073-408f58a59635" executionId="05256762-b00e-4ef7-a1c5-49aa2886b24b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="05256762-b00e-4ef7-a1c5-49aa2886b24b" testId="2b898e01-908d-ed09-6073-408f58a59635" testName="LoadLetohDataTest" computerName="MISTERJORDAN-HP" duration="00:00:02.9017285" startTime="2015-02-23T16:40:43.4106070+00:00" endTime="2015-02-23T16:40:46.5577870+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05256762-b00e-4ef7-a1c5-49aa2886b24b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

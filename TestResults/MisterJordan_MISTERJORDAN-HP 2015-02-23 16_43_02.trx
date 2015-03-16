@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a8f27bfb-cd48-43ca-9097-e2fc690e8590" name="MisterJordan@MISTERJORDAN-HP 2015-02-23 16:43:02" runUser="MisterJordan-HP\MisterJordan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c230cfe4-546b-41a8-92e0-5de5def8041b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="MisterJordan_MISTERJORDAN-HP 2015-02-23 16_43_02">
+      <DeploymentItem filename="C:\Users\MisterJordan\Desktop\University\CET203 - Software Development\C# Projects\Assignment 2 - Letoh\Letoh v4.0\Letoh HMS\bin\Debug\Letoh HMS.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-23T16:43:02.4105574+00:00" queuing="2015-02-23T16:43:02.4515597+00:00" start="2015-02-23T16:43:02.4575601+00:00" finish="2015-02-23T16:43:08.4279015+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoadLetohDataSuccessful" storage="c:\users\misterjordan\desktop\university\cet203 - software development\c# projects\assignment 2 - letoh\letoh v4.0\letohhmstests\bin\debug\letohhmstests.dll" id="51af9e9f-5add-3bb1-5ee7-ba18e46ec9ff">
+      <Execution id="f98e7458-3ed7-4a38-b29c-c09597995818" />
+      <TestMethod codeBase="C:/Users/MisterJordan/Desktop/University/CET203 - Software Development/C# Projects/Assignment 2 - Letoh/Letoh v4.0/LetohHMSTests/bin/Debug/LetohHMSTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LetohHMSTests.FormBasedUITest, LetohHMSTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadLetohDataSuccessful" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\misterjordan\desktop\university\cet203 - software development\c# projects\assignment 2 - letoh\letoh v4.0\letohhmstests\bin\debug\letohhmstests.dll" id="c64afb9c-757f-0d94-32c2-d8583c48286b">
+      <Execution id="9b0a8e5a-85a2-44b4-8c46-6c4cfce6ff53" />
+      <TestMethod codeBase="C:/Users/MisterJordan/Desktop/University/CET203 - Software Development/C# Projects/Assignment 2 - Letoh/Letoh v4.0/LetohHMSTests/bin/Debug/LetohHMSTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LetohHMSTests.ReadFileTest, LetohHMSTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="LoadLetohDataTestUnsuccessful" storage="c:\users\misterjordan\desktop\university\cet203 - software development\c# projects\assignment 2 - letoh\letoh v4.0\letohhmstests\bin\debug\letohhmstests.dll" id="99d1a266-644f-ef8c-1a36-a290caa2c01a">
+      <Execution id="0a792298-26ae-4cf1-af1c-2c758028b9a6" />
+      <TestMethod codeBase="C:/Users/MisterJordan/Desktop/University/CET203 - Software Development/C# Projects/Assignment 2 - Letoh/Letoh v4.0/LetohHMSTests/bin/Debug/LetohHMSTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LetohHMSTests.FormBasedUITest, LetohHMSTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadLetohDataTestUnsuccessful" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="51af9e9f-5add-3bb1-5ee7-ba18e46ec9ff" executionId="f98e7458-3ed7-4a38-b29c-c09597995818" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99d1a266-644f-ef8c-1a36-a290caa2c01a" executionId="0a792298-26ae-4cf1-af1c-2c758028b9a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c64afb9c-757f-0d94-32c2-d8583c48286b" executionId="9b0a8e5a-85a2-44b4-8c46-6c4cfce6ff53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f98e7458-3ed7-4a38-b29c-c09597995818" testId="51af9e9f-5add-3bb1-5ee7-ba18e46ec9ff" testName="LoadLetohDataSuccessful" computerName="MISTERJORDAN-HP" duration="00:00:02.9011613" startTime="2015-02-23T16:43:02.4595602+00:00" endTime="2015-02-23T16:43:05.5617376+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f98e7458-3ed7-4a38-b29c-c09597995818">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a792298-26ae-4cf1-af1c-2c758028b9a6" testId="99d1a266-644f-ef8c-1a36-a290caa2c01a" testName="LoadLetohDataTestUnsuccessful" computerName="MISTERJORDAN-HP" duration="00:00:02.8372020" startTime="2015-02-23T16:43:05.5637377+00:00" endTime="2015-02-23T16:43:08.4039002+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a792298-26ae-4cf1-af1c-2c758028b9a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b0a8e5a-85a2-44b4-8c46-6c4cfce6ff53" testId="c64afb9c-757f-0d94-32c2-d8583c48286b" testName="TestMethod1" computerName="MISTERJORDAN-HP" duration="00:00:00.0002175" startTime="2015-02-23T16:43:08.4059003+00:00" endTime="2015-02-23T16:43:08.4089005+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b0a8e5a-85a2-44b4-8c46-6c4cfce6ff53">
+    </UnitTestResult>
+  </Results>
+</TestRun>
